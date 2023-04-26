@@ -37,9 +37,6 @@ img{
   margin: 0 45px;
   width: 170px;
   color: hsl(0, 0%, 100%);
-  transform: scale(2.5);
-  position: relative;
-  left: 120px;
 }
 
 .insights{
@@ -47,7 +44,6 @@ img{
 }
 
 .data{
-  transform: scale(1);
   line-height: 22px;
   margin: 0 40px 40px;
   /* margin: 20px; */
@@ -132,10 +128,14 @@ top: 10px;
   .business{
     font-size: 15px;
     text-align: justify; 
+    transform: scale(2.5);
+    position: relative;
+    left: 120px;
     /* width: 250px; */
   }
 
   .data{
+  transform: scale(1);
   font-size: 15px;
   text-align:justify;
   position: relative;
