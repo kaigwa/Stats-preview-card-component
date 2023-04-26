@@ -36,6 +36,7 @@ img{
 .business{
   margin: 0 45px;
   color: hsl(0, 0%, 100%);
+  transform: scale(2, 3);
 }
 
 .insights{
